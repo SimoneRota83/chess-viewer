@@ -1,0 +1,24 @@
+{
+    "name": "obsidian-chess-viewer",
+    "version": "1.0.0",
+    "description": "Chess position viewer for Obsidian",
+    "main": "main.js",
+    "type": "commonjs",
+    "scripts": {
+        "dev": "node esbuild-config.cjs",
+        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.cjs production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "esbuild": "0.17.3",
+        "obsidian": "latest",
+        "typescript": "4.7.4",
+        "tslib": "^2.6.2"
+    },
+    "dependencies": {
+        "chess.js": "^1.0.0-beta.6"
+    }
+}

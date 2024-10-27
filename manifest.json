@@ -1,0 +1,12 @@
+{
+    "id": "chess-viewer",
+    "name": "Chess Position Viewer",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "View chess positions from FEN strings",
+    "author": "Your Name",
+    "isDesktopOnly": false,
+    "mobile": {
+        "icon": "chess"
+    }
+}

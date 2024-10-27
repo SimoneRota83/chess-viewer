@@ -1,12 +1,10 @@
 {
     "id": "chess-viewer",
-    "name": "Chess Position Viewer",
+    "name": "Chess Viewer",
     "version": "1.0.0",
     "minAppVersion": "0.15.0",
-    "description": "View chess positions from FEN strings",
-    "author": "Simone",
-    "isDesktopOnly": false,
-    "mobile": {
-        "icon": "chess"
-    }
+    "description": "A chess board viewer for Obsidian with FEN support",
+    "author": "Simone Rota",
+    "authorUrl": "https://github.com/SimoneRota83",
+    "isDesktopOnly": false
 }
